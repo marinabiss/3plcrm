@@ -1,0 +1,114 @@
+body {     
+    background-image: url(Untitled21.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position-x: center;
+    background-position-y: -30px;
+    background-color: #333232; 
+}
+
+/* Rectangle 2 */
+
+.navigation {
+    width: 100%;
+    height: 70px; 
+    margin-top: 17px; 
+    background-color: #1D1D1D;  
+    display: flex;       
+}
+.box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+    width: 60%;
+    margin-left: 420px;
+}
+
+.item {
+    display: flex;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+}
+.item:hover {
+    color:rgba(163, 162, 162, 0.25);
+    text-shadow: gray 3px 5px;
+    font-size: 17px;
+}
+
+.main {
+    display: flex;
+    justify-content:space-between;
+}
+
+/* Vector 1 */
+
+.one {
+    display: flex;
+    width: 56%;
+    height: 750px;
+    background: linear-gradient(90deg, #3B3B3B 7.66%, #141414 73%, rgba(36, 36, 36, 0) 88.59%);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transform: rotate(-90deg);    
+} 
+
+.crm {
+    font-size: 215px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #FFFFFF;
+    height: 200px;
+    width: 330px;
+    letter-spacing: 8px;
+    line-height: 260px;
+
+}
+.pl {
+    font-size: 260px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    height: 280px;
+    width: 320px;   
+    
+}
+
+/* Logic CRM */
+
+.text {
+    display: flex;
+    justify-content: center;
+    background-color:#1d1d1d60;
+    width: 60%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-right: 170px;
+}
+.textbox {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 25px;
+
+}
+.rights {
+    display: flex;
+    justify-content: center;
+}
+.textrights {
+    font-size: 12px;    
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF; 
+    margin-bottom: 80px;  
+}
+

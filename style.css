@@ -1,10 +1,9 @@
 body {     
     background-image: url(Untitled21.png);
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;    
-    background-position-x: center;
-    background-position-y: -30px;
-    background-color: #333232; 
+    background-position: center;
+    background-color: #333232 !important; 
 }
 
 /* Rectangle 2 */
@@ -75,13 +74,13 @@ body {
 
 .crm {
     position: absolute;
-    font-size: 181px;    
+    font-size: 178px;    
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     color: #FFFFFF;
     height: 200px;
     width: 330px;
-    letter-spacing: 8px;
+    /* letter-spacing: 8px; */
     line-height: 260px;
     margin-top: -20px;
     margin-right: -80px;
@@ -136,6 +135,149 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF; 
     margin-bottom: 150px;  
+}
+/*--------------------------------------------------------------------------------*/
+/*___ 1280 * 800 ___ */
+@media all and (max-width: 1280px) {   
+    body {
+        height: 800px !important;
+    }    
+    .one {
+        height: 800px;
+    }
+    .text {        
+        width: 585px;
+        height: 580px;
+        margin-top: 140px;
+        margin-left: 540px;
+        margin-right: 170px;
+    }
+    .textbox {
+        font-size: 12px;
+        margin: 25px;
+    }
+    .rights {
+        top: 750px;
+    }
+    .crm {
+        margin-top: -40px;
+        margin-right: -60px;
+    }
+    .pl {
+        font-size: 218px;
+        margin-top: -260px; 
+        margin-right: -67px; 
+    }
+}
+
+
+/* iPad Pro, Nest Hub (1024)*/
+@media all and (max-width: 1050px) {
+    body {
+        height: 800px !important;
+    }
+    .navigation {
+        width: 1030px !important;
+    }    
+    .one {
+        height: 800px;
+    }
+    .box {        
+        margin-left: 300px !important;
+    }
+    .crm {
+        font-size: 145px; 
+        margin-top: -90px;
+        margin-right: -200px;
+    }
+    .pl {
+        font-size: 178px !important; 
+        margin-top: -250px; 
+        margin-right: -200px; 
+    }
+    .text {        
+        width: 550px;
+        height: 580px;
+        margin-top: 140px;
+        margin-left: 420px;
+    }
+}
+
+
+/* iPad (768)  no reaction???*/
+@media all and (max-width: 760px) {
+    .crm {
+        font-size: 130px !important; 
+        margin-top: -100px;
+        margin-right: -200px;
+    }
+    .pl {
+        font-size: 150px !important; 
+        margin-top: -250px; 
+        margin-right: -200px; 
+    }
+    .rights {
+        left: 45%;
+    }
+    
+}
+
+/* Surface Duo (540) */
+@media all and (max-width: 550px) {
+    .crm {
+        font-size: 120px !important; 
+        margin-top: 50px;
+        margin-right: -300px;
+    }
+    .pl {
+        font-size: 150px !important; 
+        margin-top: -50px; 
+        margin-right: -300px; 
+    }
+    
+    .rights {
+        left: 65%;
+    }
+    
+}
+
+/* iPhone 6/7/8 Plus (414),
+Pixel 2 XL (411 ???), Pixel 2 (411)*/
+@media all and (max-width: 420px) {
+    .rights {
+        left: 80%;
+    }
+    
+}
+
+/* iPhone X (375), iPhone 6/7/8 (375 ???) */
+@media all and (max-width: 380px) {
+    .rights {
+        left: 65%;
+    }
+    
+}
+
+/* Galaxy S5 (360),
+Moto G4 (360)*/
+@media all and (max-width: 370px) {
+    .rights {
+        left: 100%;
+    }
+}
+
+/* iPhone 5/SE */
+@media all and (max-width: 320px) {
+    .rights {
+        left: 100%;
+    }
+}
+
+/* Galaxy Fold (280) */
+@media all and (max-width: 290px) {
+    .rights {
+        left: 100%;
+    }
 }
 
 

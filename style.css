@@ -1,9 +1,16 @@
+html {
+    height: -webkit-fill-available;
+}
+
 body {     
     background-image: url(Untitled21.png);
     background-size: cover !important;
     background-repeat: no-repeat;    
     background-position: center;
     background-color: #333232 !important; 
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
 }
 
 /* Rectangle 2 */
@@ -48,6 +55,7 @@ body {
 .main {
     display: flex;
     justify-content:space-between;
+    min-height: 100vh;
 }
 
 /* Vector 1 */
@@ -58,6 +66,7 @@ body {
     align-items: center;
     width: 56%;
     height: 100vh;
+    min-height: 100vh;
     left: 0;
     top: 0;
     background: linear-gradient(90.05deg, #3B3B3B 7.66%, #000000 74.62%, rgba(36, 36, 36, 0) 88.59%);
@@ -182,14 +191,14 @@ body {
         margin-left: 300px !important;
     }
     .crm {
-        font-size: 9em; 
-        margin-top: -90px;
-        margin-right: -200px;
+        font-size: 9em !important; 
+        margin-top: -60px !important;
+        margin-right: -430px !important;
     }
     .pl {
-        font-size: 11em !important; 
-        margin-top: -250px; 
-        margin-right: -200px; 
+        font-size: 11.3em !important; 
+        margin-top: -230px !important; 
+        margin-right: -430px !important; 
     }
     .text {        
         width: 550px;
@@ -203,19 +212,19 @@ body {
 /* iPad (768)  no reaction???*/
 @media all and (max-width: 760px) {
     .crm {
-        margin-top: -100px;
-        margin-right: -200px;
+        margin-top: -100px !important;
+        margin-right: -300px !important;
     }
     .pl {
-        margin-top: -250px; 
-        margin-right: -200px; 
+        margin-top: -250px !important; 
+        margin-right: -300px !important; 
     }
     .rights {
         left: 55% !important;
-        width: 45% !important;
+        width: 60% !important;
     }
     .text {
-        margin-left: 390px !important;
+        margin-left: 70% !important;
         width: 40% !important;
     }
 }
@@ -224,21 +233,23 @@ body {
 @media all and (max-width: 550px) {
     .crm {
         font-size: 9em !important; 
-        /* margin-top: -50px;
-        margin-right: -300px; */
+        margin-top: 100px !important;
+        margin-right: 120px !important;
     }
     .pl {
-        font-size: 8.5em !important; 
-        /* margin-top: -50px; 
-        margin-right: -300px;  */
+        font-size: 11.2em !important; 
+        margin-top: -60px !important; 
+        margin-right: 120px !important; 
     }
     .text {
         margin-left: 430px !important;
-        width: 500px !important;
+        width: 510px !important;
+        height: 635px;
 
     }    
     .rights {
         left: 65%;
+        top: 108%;
     }
     
 }
@@ -247,18 +258,18 @@ body {
 Pixel 2 XL (411 ???), Pixel 2 (411)*/
 @media all and (max-width: 420px) {
     .rights {
-        left: 80%;
+        left: 80% !important;
+        width: 80% !important;
     }
     .text {
         margin-left: 430px !important;
-        width: 500px !important;
+        width: 530px !important;
 
     }    
 }
 
 /* iPhone X (375), iPhone 6/7/8 (375 ???) */
 @media all and (max-width: 380px) {
-    
     body {
         height: 800px !important;
         background-position: top !important;
@@ -268,13 +279,13 @@ Pixel 2 XL (411 ???), Pixel 2 (411)*/
         height: 800px;
     }
     .rights {
-        left: 65% !important;
-        width: 40%;
+        left: 90% !important;
+        width: 70%;
+        top: 790px !important;
     }
     .text {
         margin-left: 430px !important;
         width: 500px !important;
-
     } 
     .crm {
         margin-top: 150px !important;
@@ -292,7 +303,9 @@ Pixel 2 XL (411 ???), Pixel 2 (411)*/
 Moto G4 (360)*/
 @media all and (max-width: 370px) {
     .rights {
-        left: 100%;
+        left: 90% !important;
+        width: 70% !important;
+        top: 790px !important;
     }
 }
 

@@ -77,34 +77,29 @@ body {
     flex-direction: column;
     justify-content:space-between;
     align-items:center;
-    transform: rotate(-90deg);    
+    transform: rotate(-90deg);   
 } 
 
 .crm {
     position: absolute;
-    font-size: 11em;    
+    font-size: 10em;    
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     color: #FFFFFF;
-    height: 200px;
-    width: 19%;
-    /* letter-spacing: 8px; */
-    /* line-height: 260px; */
-    margin-top: -85px !important;
-    margin-right: 225px !important;
+    letter-spacing: 10px;
+    margin-top: -24px !important;
+    margin-right: -195px !important;
 
 }
 .pl {
     position: absolute;
-    font-size: 13.5em;
+    font-size: 13em;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     letter-spacing: -7px;
-    height: 280px;
-    width: 14%; 
-    margin-top: -290px !important; 
-    margin-right: 225px !important; 
+    margin-top: -230px !important; 
+    margin-right: -180px !important; 
     
 }
 
@@ -115,15 +110,15 @@ body {
     display: flex;
     justify-content: center;
     background-color:#1d1d1d60;
-    width: 33%;
-    height: 80%;
+    width: 45%;
+    height: 71%;
     margin-top: 140px;
-    margin-left: 39% !important;
+    margin-left: 40% !important;
 }
 .textbox {
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.76em;
+    font-size: 0.87em;
     color: #FFFFFF;
     margin: 25px;
 
@@ -131,16 +126,15 @@ body {
 .rights {
     display: flex;     
     position: absolute;
-    width: 30%;
+    width: 50%;
     height: 21px;
-    left: 35%;
-    top: 815px;
+    left: 40.5%;
+    top: 773px;
 }
 .textrights {
-    font-size: 0.8em;    
+    font-size: 0.87em;    
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF; 
-    margin-bottom: 150px;  
+    color: #FFFFFF;
 }
 /*--------------------------------------------------------------------------------*/
 /*___ 1280 * 800 ___ */
@@ -166,12 +160,12 @@ body {
         top: 750px;
     }
     .crm {
-        margin-top: -70px !important;
-        margin-right: 230px !important;
+        margin-top: -60px !important;
+        margin-right: -165px !important;
     }
     .pl {
-        margin-top: -270px !important; 
-        margin-right: 230px !important; 
+        margin-top: -260px !important; 
+        margin-right: -150px !important; 
     }
 }
 
@@ -191,14 +185,14 @@ body {
         margin-left: 300px !important;
     }
     .crm {
-        font-size: 9em !important; 
+        font-size: 8.5em !important; 
         margin-top: -60px !important;
-        margin-right: -430px !important;
+        margin-right: -750px !important;
     }
     .pl {
         font-size: 11.3em !important; 
         margin-top: -230px !important; 
-        margin-right: -430px !important; 
+        margin-right: -730px !important; 
     }
     .text {        
         width: 550px;
@@ -207,7 +201,6 @@ body {
         margin-left: 420px;
     }
 }
-
 
 /* iPad (768)  no reaction???*/
 @media all and (max-width: 760px) {

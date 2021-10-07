@@ -23,7 +23,7 @@ body {
     justify-content: space-evenly;  
     align-self: center;
     width: 57%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .item {
@@ -31,7 +31,7 @@ body {
     justify-self: center;
     align-self: center;
     font-family: 'Poppins', sans-serif;    
-    font-size: 14px;
+    font-size: 0.8235em;
     font-weight: bold;
     color: #FFFFFF;
     text-decoration: none;
@@ -41,9 +41,8 @@ body {
     text-decoration: underline;
 }
 .item:hover {
-    color:rgba(163, 162, 162, 0.25);
-    text-shadow: gray 3px 5px;
-    font-size: 15px;
+    color:rgba(211, 207, 207, 0.25);
+    /* text-shadow: gray 3px 5px; */
 }
 
 .main {
@@ -58,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 56%;
-    height: 850px;
+    height: 100vh;
     left: 0;
     top: 0;
     background: linear-gradient(90.05deg, #3B3B3B 7.66%, #000000 74.62%, rgba(36, 36, 36, 0) 88.59%);
@@ -74,29 +73,29 @@ body {
 
 .crm {
     position: absolute;
-    font-size: 178px;    
+    font-size: 11em;    
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     color: #FFFFFF;
     height: 200px;
-    width: 330px;
+    width: 19%;
     /* letter-spacing: 8px; */
-    line-height: 260px;
-    margin-top: -20px;
-    margin-right: -80px;
+    /* line-height: 260px; */
+    margin-top: -85px !important;
+    margin-right: 225px !important;
 
 }
 .pl {
     position: absolute;
-    font-size: 227px;
+    font-size: 13.5em;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     letter-spacing: -7px;
     height: 280px;
-    width: 320px; 
-    margin-top: -240px; 
-    margin-right: -90px; 
+    width: 14%; 
+    margin-top: -290px !important; 
+    margin-right: 225px !important; 
     
 }
 
@@ -107,31 +106,29 @@ body {
     display: flex;
     justify-content: center;
     background-color:#1d1d1d60;
-    width: 42%;
-    height: 95%;
+    width: 33%;
+    height: 80%;
     margin-top: 140px;
-    margin-left: 630px;
-    margin-right: 170px;
+    margin-left: 39% !important;
 }
 .textbox {
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 0.76em;
     color: #FFFFFF;
     margin: 25px;
 
 }
 .rights {
-    display: flex; 
-    
+    display: flex;     
     position: absolute;
-    width: 406px;
+    width: 30%;
     height: 21px;
-    left: 40%;
-    top: 812px;
+    left: 35%;
+    top: 815px;
 }
 .textrights {
-    font-size: 12px;    
+    font-size: 0.8em;    
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF; 
     margin-bottom: 150px;  
@@ -153,20 +150,19 @@ body {
         margin-right: 170px;
     }
     .textbox {
-        font-size: 12px;
+        font-size: 0.76em;
         margin: 25px;
     }
     .rights {
         top: 750px;
     }
     .crm {
-        margin-top: -40px;
-        margin-right: -60px;
+        margin-top: -70px !important;
+        margin-right: 230px !important;
     }
     .pl {
-        font-size: 218px;
-        margin-top: -260px; 
-        margin-right: -67px; 
+        margin-top: -270px !important; 
+        margin-right: 230px !important; 
     }
 }
 
@@ -186,12 +182,12 @@ body {
         margin-left: 300px !important;
     }
     .crm {
-        font-size: 145px; 
+        font-size: 9em; 
         margin-top: -90px;
         margin-right: -200px;
     }
     .pl {
-        font-size: 178px !important; 
+        font-size: 11em !important; 
         margin-top: -250px; 
         margin-right: -200px; 
     }
@@ -207,34 +203,40 @@ body {
 /* iPad (768)  no reaction???*/
 @media all and (max-width: 760px) {
     .crm {
-        font-size: 130px !important; 
         margin-top: -100px;
         margin-right: -200px;
     }
     .pl {
-        font-size: 150px !important; 
         margin-top: -250px; 
         margin-right: -200px; 
     }
     .rights {
-        left: 45%;
+        left: 55% !important;
+        width: 45% !important;
     }
-    
+    .text {
+        margin-left: 390px !important;
+        width: 40% !important;
+    }
 }
 
 /* Surface Duo (540) */
 @media all and (max-width: 550px) {
     .crm {
-        font-size: 120px !important; 
-        margin-top: 50px;
-        margin-right: -300px;
+        font-size: 9em !important; 
+        /* margin-top: -50px;
+        margin-right: -300px; */
     }
     .pl {
-        font-size: 150px !important; 
-        margin-top: -50px; 
-        margin-right: -300px; 
+        font-size: 8.5em !important; 
+        /* margin-top: -50px; 
+        margin-right: -300px;  */
     }
-    
+    .text {
+        margin-left: 430px !important;
+        width: 500px !important;
+
+    }    
     .rights {
         left: 65%;
     }
@@ -247,14 +249,42 @@ Pixel 2 XL (411 ???), Pixel 2 (411)*/
     .rights {
         left: 80%;
     }
-    
+    .text {
+        margin-left: 430px !important;
+        width: 500px !important;
+
+    }    
 }
 
 /* iPhone X (375), iPhone 6/7/8 (375 ???) */
 @media all and (max-width: 380px) {
-    .rights {
-        left: 65%;
+    
+    body {
+        height: 800px !important;
+        background-position: top !important;
+
     }
+    .one {
+        height: 800px;
+    }
+    .rights {
+        left: 65% !important;
+        width: 40%;
+    }
+    .text {
+        margin-left: 430px !important;
+        width: 500px !important;
+
+    } 
+    .crm {
+        margin-top: 150px !important;
+        margin-right: 130px !important;
+    }
+    .pl {
+        font-size: 11em !important; 
+        margin-top: -35px !important; 
+        margin-right: 130px !important; 
+    }   
     
 }
 
@@ -279,6 +309,8 @@ Moto G4 (360)*/
         left: 100%;
     }
 }
+
+
 
 
 

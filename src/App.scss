@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+html {
+  background-color: #000000;
+}
+body {
+  background: url(./img/home-bg.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+#cont {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#menu {
+  background-color: rgb(29, 29, 29);
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  height: auto;
+}
+
+#navbar-toggler {
+  border: none;
+  color: rgb(29, 29, 29);
+}
+.Navbar {
+  background: rgb(29, 29, 29);
+  margin-top: 28px;
+  margin-bottom: 34px;
+  height: 90px;
+  padding-bottom: 15px;
+  line-height: 40px;
+}
+
+#nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 15px;
+}
+#nav-link:hover {
+  color: #474646;
+}
+
+/************ Home css ************/
+
+.wrapper {
+  max-width: 1100px;
+  justify-content: space-evenly;
+
+  position: relative;
+  align-content: center;
+  display: block;
+  margin-top: 205px;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  max-width: 30%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+.img {
+  max-width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.home-text {
+  float: left;
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  min-height: 100%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 65%;
+  padding: 2%;
+  overflow: hidden;
+
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-quote {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.card-txt {
+  color: #ffffff;
+  line-height: 25px;
+  line-height: 20px;
+}
+
+.card-name {
+  font-size: 18px;
+  line-height: 40px;
+}
+/******* footer css********/
+.footer {
+  background-color: #161616;
+
+  color: #fff;
+}
